@@ -9,3 +9,6 @@ present = red
 future = green
 
 Will add more functionality in the future.
+
+
+<a href="https://ward438.github.io/my-daily-planner/"> View Page </a>
