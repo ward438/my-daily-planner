@@ -11,4 +11,7 @@ future = green
 Will add more functionality in the future.
 
 
+<img src="https://github.com/ward438/my-daily-planner/blob/main/assets/Capture.PNG" alt="Quiz Preview"
+width="1000px"/>
+
 <a href="https://ward438.github.io/my-daily-planner/"> View Page </a>
