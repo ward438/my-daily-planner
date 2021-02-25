@@ -20,9 +20,6 @@ $(document).ready(function() {
         return times;
     }
 
-    // function getStoredSchedule(){
-    //     return []
-    // }
 
     function buildHourlyRows() {
         var rows = [];
@@ -61,7 +58,7 @@ $(document).ready(function() {
             } else {
                 timeClass = "future";
             }
-            myHTML += `<tr><td>${row.time}</td><td><input value="${row.text}" id="${i}" class='hourInput ${timeClass}'></td></tr>`
+            myHTML += `<tr><td><p>${row.time}:</p></td><td><input value="${row.text}" id="${i}" class='hourInput ${timeClass}'></td></tr>`
         }
         $("#timeBlock").html(myHTML);
     }
@@ -83,10 +80,9 @@ $(document).ready(function() {
             var index = parseInt(event.target.id);
             hourRows[index].text = value;
             console.log(hourRows);
-            // make sure you update the item's text that you are typing in
-            // get that by looking at the id of the input and that is the corresponding index because we did that when genereating the html
 
-            // CAN ONLY STORE TEXT, MUST STRINGIFY
+
+
             localStorage.setItem("timeBlock", JSON.stringify(hourRows));
 
         });

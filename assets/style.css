@@ -70,3 +70,18 @@ textarea {
     font-size: 20px;
     transition: all .3s ease-in-out;
 }
+
+table,
+th,
+td {
+    width: 70%;
+}
+
+td {
+    text-align: right;
+}
+
+p {
+    font-weight: bold;
+    margin-right: 5px;
+}
